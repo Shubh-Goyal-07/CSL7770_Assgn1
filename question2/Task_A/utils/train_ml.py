@@ -40,13 +40,11 @@ def train_ml_model(data: pd.DataFrame, target: pd.Series, model_name: str):
 
     return model, train_accuracy, test_accuracy
 
-
+# function to load data from csv file
 def load_data(data_path: str):
     data_csv = pd.read_csv(data_path)
     target = data_csv.pop('label')
 
-    # the data in first column of data_csv are embeddings in form of string of a list
-    # convert the string to floats and spread in columns
     # data_csv['embedding'] = data_csv['embedding'].apply(lambda x: x[1:-1].split()).apply(pd.to_numeric)
     # data = data_csv.apply(pd.to_numeric)
     # data_csv['embedding'] = data_csv['embedding'].apply(ast.literal_eval)

@@ -11,16 +11,16 @@ import os
 def load_data(data_path: str):
     data_csv = pd.read_csv(data_path)
     target = data_csv.pop('label').astype('category').cat.codes
-    # convert the string to floats in data_csv
+    # converting the string to floats in data_csv
     data = data_csv.astype(np.float32)
     
-    # convert target to one hot encoding
+    # converting target to one hot encoding
     target = pd.get_dummies(target)
 
     return data_csv, target
 
 
-# define a neural network
+# Neural network model - 4 fully connected layers - ReLU activation for hidden layers and sigmoid for output layer
 class NeuralNetwork(nn.Module):
     def __init__(self, input_dim):
         super(NeuralNetwork, self).__init__()
@@ -37,8 +37,8 @@ class NeuralNetwork(nn.Module):
         return x
     
 
-# train a neural network
-def train_nn_model(data_loader: DataLoader, model: nn.Module, criterion, optimizer, device):
+# fucntion to train model for an epoch
+def train_nn_model(data_loader, model, criterion, optimizer, device):
     model.train()
     for inputs, labels in data_loader:
         inputs, labels = inputs.to(device), labels.to(device)
@@ -50,7 +50,7 @@ def train_nn_model(data_loader: DataLoader, model: nn.Module, criterion, optimiz
     return model
 
 
-# test a neural network
+# fucntion to test model after an epoch
 def test_nn_model(data_loader, model, criterion, device):
     model.eval()
     running_loss = 0.0
@@ -67,7 +67,6 @@ def test_nn_model(data_loader, model, criterion, device):
     return running_loss / len(data_loader), 100 * running_acc / len(data_loader)
 
 
-# main function
 def main(window_type, epochs):
     logging.info(f'Training neural network on embeddings for window: {window_type}')
 
@@ -88,6 +87,7 @@ def main(window_type, epochs):
     model.to(device)
 
     logging.info('Training neural network')
+    # training the model
     for epoch in range(epochs):
         model = train_nn_model(train_loader, model, criterion, optimizer, device)
         train_loss, train_acc = test_nn_model(train_loader, model, criterion, device)

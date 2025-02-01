@@ -15,6 +15,7 @@ import logging
 BATCH_SIZE = 32
 MARGIN = 1.0
 
+# the class is used to generate pairs of images to train the siamese network
 class SiameseDataset(Dataset):
     def __init__(self, data_dir, transform=None):
         self.data_dir = data_dir
@@ -65,7 +66,7 @@ class SiameseDataset(Dataset):
         # print(img1.shape)
         return img1, img2, label
 
-
+# defines the siaemese network class - can take any cnn backbone
 class SiameseNet(nn.Module):
     def __init__(self, cnn_backbone):
         super(SiameseNet, self).__init__()
@@ -80,7 +81,7 @@ class SiameseNet(nn.Module):
     def get_embedding(self, x):
         return self.cnn_backbone(x)
     
-
+# contrastive loss class
 class ContrastiveLoss(nn.Module):
     def __init__(self, margin):
         super(ContrastiveLoss, self).__init__()
@@ -89,11 +90,11 @@ class ContrastiveLoss(nn.Module):
     def forward(self, output1, output2, label):
         euclidean_distance = F.pairwise_distance(output1, output2)
         loss_contrastive = torch.mean((1 - label) * torch.pow(euclidean_distance, 2) +
-                                      (label) * torch.pow(torch.clamp(self.margin - euclidean_distance, min=0.0), 0.5))
+                                      (label) * torch.pow(torch.clamp(self.margin - euclidean_distance, min=0.0), 2))
 
         return loss_contrastive
     
-
+# function to run one training epoch
 def train_epoch(model, train_loader, criterion, optimizer, device):
     model.train()
     running_loss = 0.0
@@ -115,7 +116,7 @@ def train_epoch(model, train_loader, criterion, optimizer, device):
 
     return running_loss / len(train_loader)
 
-
+# function to run test after each epoch
 def test_epoch(model, test_loader, criterion, device):
     model.eval()
     running_loss = 0.0
@@ -134,7 +135,7 @@ def test_epoch(model, test_loader, criterion, device):
 
     return running_loss / len(test_loader)
 
-
+# function to train the model for a number of epochs
 def train(model, train_loader, test_loader, criterion, optimizer, device, epochs):
     for epoch in range(epochs):
         train_loss = train_epoch(model, train_loader, criterion, optimizer, device)
@@ -146,6 +147,7 @@ def train(model, train_loader, test_loader, criterion, optimizer, device, epochs
     # print('Finished Training')
 
 
+# function to create train and test data loaders - splitting done at 80-20 ratio
 def get_data_loaders(data_dir, batch_size):
     transform = transforms.Compose([transforms.Resize((224, 224)),
                                     transforms.ToTensor()])
@@ -160,7 +162,7 @@ def get_data_loaders(data_dir, batch_size):
 
     return train_loader, test_loader
 
-
+# function to create embeddings for all the spectrograms and save them with class labels in a csv file
 def save_embeddings(model, device):
     df_dict = {'embedding': [], 'label': []}
 
@@ -179,10 +181,11 @@ def save_embeddings(model, device):
             df_dict['embedding'].append(embedding.cpu().detach().numpy().flatten())
             df_dict['label'].append(cls)
 
-    # distribute embedding list elements to columns
+    # distributing embedding list elements to columns
     for i in range(len(df_dict['embedding'][0])):
         df_dict[f'embedding_{i}'] = [emb[i] for emb in df_dict['embedding']]
 
+    # using min-max normalization
     for i in range(len(df_dict['embedding'][0])):
         df_dict[f'embedding_{i}'] = (df_dict[f'embedding_{i}'] - min(df_dict[f'embedding_{i}'])) / (max(df_dict[f'embedding_{i}']) - min(df_dict[f'embedding_{i}']))
 
@@ -209,6 +212,7 @@ def main(window_name, epochs):
     train_loader, test_loader = get_data_loaders(data_dir, batch_size)
     logging.info('Data loaders ready')
 
+    # using resnet18 as the backbone
     resnet_backbone = resnet18(weights=None)
     cnn_backbone = nn.Sequential(*list(resnet_backbone.children())[:-1])
     model = SiameseNet(cnn_backbone).to(device)

@@ -10,8 +10,10 @@ import os
 from tqdm import tqdm
 import logging 
 
+# using batch size as 128
 BATCH_SIZE=128
 
+# function to load data from directory and create dataloaders
 def get_dataloaders(data_dir, batch_size):
     transform = transforms.Compose([
         transforms.Resize((224, 224)),
@@ -30,7 +32,7 @@ def get_dataloaders(data_dir, batch_size):
 
     return train_loader, test_loader
 
-
+# CNN model - ResNet18 bacbone with 2 fully connected layers
 class CNNClassifier(nn.Module):
     def __init__(self):
         super(CNNClassifier, self).__init__()
@@ -49,7 +51,7 @@ class CNNClassifier(nn.Module):
         x = self.fc(x)
         return x
     
-
+# function to train model for an epoch
 def train_epoch(model, train_loader, criterion, optimizer, device):
     model.train()
     running_loss = 0.0
@@ -72,14 +74,14 @@ def train_epoch(model, train_loader, criterion, optimizer, device):
 
     return running_loss / len(train_loader), running_corrects / len(train_loader)
 
-
-def test_epoch(model, test_loader, criterion, device):
+# fucntion to test model after an epoch
+def test_epoch(model, data_loader, criterion, device):
     model.eval()
     running_loss = 0.0
     running_corrects = 0
 
     with torch.no_grad():
-        for i, data in enumerate(test_loader, 0):
+        for i, data in enumerate(data_loader, 0):
             inputs, labels = data
             inputs = inputs.to(device)
             labels = labels.to(device)
@@ -90,9 +92,9 @@ def test_epoch(model, test_loader, criterion, device):
             running_loss += loss.item()
             running_corrects += (outputs.argmax(dim=1) == labels).float().mean().item()
 
-    return running_loss / len(test_loader), running_corrects / len(test_loader)
+    return running_loss / len(data_loader), running_corrects / len(data_loader)
 
-
+# function to train model for a number of epochs
 def train(model, train_loader, test_loader, criterion, optimizer, device, epochs):
     logging.info('Starting training')
     for epoch in range(epochs):

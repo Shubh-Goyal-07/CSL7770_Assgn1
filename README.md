@@ -6,6 +6,7 @@ The repository contains the code and report for the first assignment of the cour
 ```
 .
 ├── question1_report.pdf
+├── question1_ppt.pdf
 ├── question2_report.pdf
 ├── question2
 │   ├── TaskA
@@ -24,6 +25,8 @@ cd CSL7770_Assgn1
 ## Question 1
 
 The report for Question 1 is present in the `question1_report.pdf` file
+
+The presentation for Question 1 is present in the `question1_ppt.pdf` file
 
 ## Question 2
 

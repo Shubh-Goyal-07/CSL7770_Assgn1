@@ -1,9 +1,9 @@
-01-Feb-25 03:51:16 - Training dt model on embeddings for window: hamming
-01-Feb-25 03:51:16 - Loading data
-01-Feb-25 03:51:17 - Data loaded
-01-Feb-25 03:51:17 - Training model
-01-Feb-25 03:51:25 - Model trained
-01-Feb-25 03:51:25 - Training accuracy: 97.25125268432355, Test accuracy: 46.70864338866629
-01-Feb-25 03:51:25 - Saving model
-01-Feb-25 03:51:25 - Model saved successfully
+02-Feb-25 15:42:38 - Training dt model on embeddings for window: hamming
+02-Feb-25 15:42:38 - Loading data
+02-Feb-25 15:42:38 - Data loaded
+02-Feb-25 15:42:38 - Training model
+02-Feb-25 15:42:46 - Model trained
+02-Feb-25 15:42:46 - Training accuracy: 99.15533285612025, Test accuracy: 54.779622209502
+02-Feb-25 15:42:46 - Saving model
+02-Feb-25 15:42:46 - Model saved successfully
 

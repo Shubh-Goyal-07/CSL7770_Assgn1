@@ -1,9 +1,9 @@
-01-Feb-25 03:52:47 - Training rf model on embeddings for window: rectangular
-01-Feb-25 03:52:47 - Loading data
-01-Feb-25 03:52:48 - Data loaded
-01-Feb-25 03:52:48 - Training model
-01-Feb-25 03:53:13 - Model trained
-01-Feb-25 03:53:13 - Training accuracy: 99.89978525411595, Test accuracy: 64.51058958214081
-01-Feb-25 03:53:13 - Saving model
-01-Feb-25 03:53:13 - Model saved successfully
+02-Feb-25 15:44:33 - Training rf model on embeddings for window: rectangular
+02-Feb-25 15:44:33 - Loading data
+02-Feb-25 15:44:34 - Data loaded
+02-Feb-25 15:44:34 - Training model
+02-Feb-25 15:44:52 - Model trained
+02-Feb-25 15:44:52 - Training accuracy: 100.0, Test accuracy: 62.44991413852318
+02-Feb-25 15:44:52 - Saving model
+02-Feb-25 15:44:53 - Model saved successfully
 

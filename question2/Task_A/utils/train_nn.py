@@ -20,7 +20,7 @@ def load_data(data_path: str):
     return data_csv, target
 
 
-# Neural network model - 4 fully connected layers - ReLU activation for hidden layers and sigmoid for output layer
+# Neural network model - 4 fully connected layers - ReLU activation for hidden layers
 class NeuralNetwork(nn.Module):
     def __init__(self, input_dim):
         super(NeuralNetwork, self).__init__()
@@ -33,7 +33,7 @@ class NeuralNetwork(nn.Module):
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
         x = F.relu(self.fc3(x))
-        x = torch.sigmoid(self.fc4(x))
+        x = self.fc4(x)
         return x
     
 

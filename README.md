@@ -52,6 +52,7 @@ Please follow the below instructions to run the code for Task A:
     ├── siamese.py
     ├── train.py
     ├── requirements.txt
+    └── plots.ipynb
     ```
 
    The directory named `logs` currently contains the log files generated during the execution of the code. 
@@ -63,6 +64,8 @@ Please follow the below instructions to run the code for Task A:
    The directory named `train_data` contains the embeddings (extracted features from spectrograms).
 
    The directory named `utils` contains the utility functions used in the code.
+
+   The `plots.ipynb` file contains the code to generate the plots for the report.
 
 2. **Download and extract the dataset**
    ```bash

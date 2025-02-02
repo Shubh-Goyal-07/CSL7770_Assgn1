@@ -1,9 +1,9 @@
-01-Feb-25 03:54:54 - Training rf model on embeddings for window: hann
-01-Feb-25 03:54:54 - Loading data
-01-Feb-25 03:54:55 - Data loaded
-01-Feb-25 03:54:55 - Training model
-01-Feb-25 03:55:26 - Model trained
-01-Feb-25 03:55:26 - Training accuracy: 99.98568360773085, Test accuracy: 63.13680595306239
-01-Feb-25 03:55:26 - Saving model
-01-Feb-25 03:55:26 - Model saved successfully
+02-Feb-25 15:43:29 - Training rf model on embeddings for window: hann
+02-Feb-25 15:43:29 - Loading data
+02-Feb-25 15:43:30 - Data loaded
+02-Feb-25 15:43:30 - Training model
+02-Feb-25 15:43:49 - Model trained
+02-Feb-25 15:43:49 - Training accuracy: 100.0, Test accuracy: 61.82026330852891
+02-Feb-25 15:43:49 - Saving model
+02-Feb-25 15:43:49 - Model saved successfully
 

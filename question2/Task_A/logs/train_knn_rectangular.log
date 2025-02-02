@@ -1,9 +1,9 @@
-01-Feb-25 03:57:05 - Training knn model on embeddings for window: rectangular
-01-Feb-25 03:57:05 - Loading data
-01-Feb-25 03:57:06 - Data loaded
-01-Feb-25 03:57:06 - Training model
-01-Feb-25 03:57:08 - Model trained
-01-Feb-25 03:57:08 - Training accuracy: 71.3815318539728, Test accuracy: 57.46994848311391
-01-Feb-25 03:57:08 - Saving model
-01-Feb-25 03:57:08 - Model saved successfully
+02-Feb-25 15:46:03 - Training knn model on embeddings for window: rectangular
+02-Feb-25 15:46:03 - Loading data
+02-Feb-25 15:46:04 - Data loaded
+02-Feb-25 15:46:04 - Training model
+02-Feb-25 15:46:05 - Model trained
+02-Feb-25 15:46:05 - Training accuracy: 70.72297780959198, Test accuracy: 57.183743560389246
+02-Feb-25 15:46:05 - Saving model
+02-Feb-25 15:46:05 - Model saved successfully
 

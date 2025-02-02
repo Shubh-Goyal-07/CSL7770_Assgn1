@@ -1,9 +1,9 @@
-01-Feb-25 03:57:30 - Training knn model on embeddings for window: hamming
-01-Feb-25 03:57:30 - Loading data
-01-Feb-25 03:57:31 - Data loaded
-01-Feb-25 03:57:31 - Training model
-01-Feb-25 03:57:33 - Model trained
-01-Feb-25 03:57:33 - Training accuracy: 67.80243378668575, Test accuracy: 52.03205495134517
-01-Feb-25 03:57:33 - Saving model
-01-Feb-25 03:57:33 - Model saved successfully
+02-Feb-25 15:45:52 - Training knn model on embeddings for window: hamming
+02-Feb-25 15:45:52 - Loading data
+02-Feb-25 15:45:53 - Data loaded
+02-Feb-25 15:45:53 - Training model
+02-Feb-25 15:45:54 - Model trained
+02-Feb-25 15:45:54 - Training accuracy: 76.97924123120974, Test accuracy: 63.423010875787064
+02-Feb-25 15:45:54 - Saving model
+02-Feb-25 15:45:54 - Model saved successfully
 

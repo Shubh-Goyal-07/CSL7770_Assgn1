@@ -1,9 +1,9 @@
-01-Feb-25 03:51:41 - Training dt model on embeddings for window: rectangular
-01-Feb-25 03:51:41 - Loading data
-01-Feb-25 03:51:42 - Data loaded
-01-Feb-25 03:51:42 - Training model
-01-Feb-25 03:51:49 - Model trained
-01-Feb-25 03:51:49 - Training accuracy: 96.30637079455977, Test accuracy: 48.540354894104176
-01-Feb-25 03:51:49 - Saving model
-01-Feb-25 03:51:49 - Model saved successfully
+02-Feb-25 15:43:03 - Training dt model on embeddings for window: rectangular
+02-Feb-25 15:43:03 - Loading data
+02-Feb-25 15:43:04 - Data loaded
+02-Feb-25 15:43:04 - Training model
+02-Feb-25 15:43:11 - Model trained
+02-Feb-25 15:43:11 - Training accuracy: 98.61130994989263, Test accuracy: 49.62793360045793
+02-Feb-25 15:43:11 - Saving model
+02-Feb-25 15:43:11 - Model saved successfully
 

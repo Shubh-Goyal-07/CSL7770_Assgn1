@@ -1,0 +1,9 @@
+01-Feb-25 03:53:27 - Training rf model on embeddings for window: hamming
+01-Feb-25 03:53:27 - Loading data
+01-Feb-25 03:53:28 - Data loaded
+01-Feb-25 03:53:28 - Training model
+01-Feb-25 03:53:51 - Model trained
+01-Feb-25 03:53:51 - Training accuracy: 99.98568360773085, Test accuracy: 60.21751574127075
+01-Feb-25 03:53:51 - Saving model
+01-Feb-25 03:53:51 - Model saved successfully
+

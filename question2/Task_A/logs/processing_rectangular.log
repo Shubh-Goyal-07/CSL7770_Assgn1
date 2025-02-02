@@ -1,0 +1,7 @@
+02-Feb-25 01:17:24 - Generating spectrograms with window type: rectangular, window size: 1024, overlap: 512
+02-Feb-25 01:35:43 - Percentage error in windowing: 1062.9357145111785 %
+02-Feb-25 01:35:43 - Finished generating spectrograms
+02-Feb-25 01:35:43 - Spectrograms saved in train_data/spectrograms/rectangular
+02-Feb-25 01:35:43 - -----------------------------------
+
+

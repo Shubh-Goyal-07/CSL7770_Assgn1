@@ -1,0 +1,9 @@
+01-Feb-25 03:49:53 - Training dt model on embeddings for window: hann
+01-Feb-25 03:49:53 - Loading data
+01-Feb-25 03:49:54 - Data loaded
+01-Feb-25 03:49:54 - Training model
+01-Feb-25 03:50:01 - Model trained
+01-Feb-25 03:50:01 - Training accuracy: 98.41088045812455, Test accuracy: 50.88723526044648
+01-Feb-25 03:50:01 - Saving model
+01-Feb-25 03:50:01 - Model saved successfully
+

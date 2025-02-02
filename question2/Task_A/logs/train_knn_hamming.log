@@ -1,0 +1,9 @@
+01-Feb-25 03:57:30 - Training knn model on embeddings for window: hamming
+01-Feb-25 03:57:30 - Loading data
+01-Feb-25 03:57:31 - Data loaded
+01-Feb-25 03:57:31 - Training model
+01-Feb-25 03:57:33 - Model trained
+01-Feb-25 03:57:33 - Training accuracy: 67.80243378668575, Test accuracy: 52.03205495134517
+01-Feb-25 03:57:33 - Saving model
+01-Feb-25 03:57:33 - Model saved successfully
+

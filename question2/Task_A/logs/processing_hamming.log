@@ -1,0 +1,7 @@
+01-Feb-25 02:13:07 - Generating spectrograms with window type: hamming, window size: 1024, overlap: 512
+01-Feb-25 02:50:33 - Percentage error in windowing: 8.265727869017068 %
+01-Feb-25 02:50:33 - Finished generating spectrograms
+01-Feb-25 02:50:33 - Spectrograms saved in train_data/spectrograms/hamming
+01-Feb-25 02:50:33 - -----------------------------------
+
+

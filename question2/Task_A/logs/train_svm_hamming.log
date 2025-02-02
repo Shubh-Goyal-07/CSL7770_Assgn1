@@ -1,0 +1,9 @@
+01-Feb-25 04:17:02 - Training svm model on embeddings for window: hamming
+01-Feb-25 04:17:02 - Loading data
+01-Feb-25 04:17:03 - Data loaded
+01-Feb-25 04:17:03 - Training model
+01-Feb-25 04:17:59 - Model trained
+01-Feb-25 04:17:59 - Training accuracy: 76.80744452397997, Test accuracy: 56.783056668574694
+01-Feb-25 04:17:59 - Saving model
+01-Feb-25 04:17:59 - Model saved successfully
+

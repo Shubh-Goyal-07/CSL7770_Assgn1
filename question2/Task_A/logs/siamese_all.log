@@ -1,0 +1,369 @@
+01-Feb-25 03:30:36 - Initalizing training for window: hann
+01-Feb-25 03:30:36 - Using device: cuda
+01-Feb-25 03:30:36 - Getting data loaders
+01-Feb-25 03:30:36 - Data loaders ready
+01-Feb-25 03:30:37 - Starting training
+01-Feb-25 03:30:37 - Epoch 1/100 - Train Loss: 0.8709 - Test Loss: 0.6999
+01-Feb-25 03:30:37 - Epoch 2/100 - Train Loss: 0.5388 - Test Loss: 0.8567
+01-Feb-25 03:30:38 - Epoch 3/100 - Train Loss: 0.5775 - Test Loss: 0.5732
+01-Feb-25 03:30:38 - Epoch 4/100 - Train Loss: 0.3732 - Test Loss: 0.9874
+01-Feb-25 03:30:38 - Epoch 5/100 - Train Loss: 0.2623 - Test Loss: 0.9979
+01-Feb-25 03:30:38 - Epoch 6/100 - Train Loss: 0.2199 - Test Loss: 0.9991
+01-Feb-25 03:30:38 - Epoch 7/100 - Train Loss: 0.0720 - Test Loss: 0.9992
+01-Feb-25 03:30:39 - Epoch 8/100 - Train Loss: 0.0519 - Test Loss: 0.9992
+01-Feb-25 03:30:39 - Epoch 9/100 - Train Loss: 0.0286 - Test Loss: 0.9993
+01-Feb-25 03:30:39 - Epoch 10/100 - Train Loss: 0.0203 - Test Loss: 0.9994
+01-Feb-25 03:30:39 - Epoch 11/100 - Train Loss: 0.0169 - Test Loss: 0.9993
+01-Feb-25 03:30:39 - Epoch 12/100 - Train Loss: 0.0080 - Test Loss: 0.9992
+01-Feb-25 03:30:40 - Epoch 13/100 - Train Loss: 0.0298 - Test Loss: 0.9991
+01-Feb-25 03:30:40 - Epoch 14/100 - Train Loss: 0.0515 - Test Loss: 0.9930
+01-Feb-25 03:30:40 - Epoch 15/100 - Train Loss: 0.0478 - Test Loss: 0.9826
+01-Feb-25 03:30:40 - Epoch 16/100 - Train Loss: 0.0090 - Test Loss: 0.9795
+01-Feb-25 03:30:41 - Epoch 17/100 - Train Loss: 0.0052 - Test Loss: 0.9784
+01-Feb-25 03:30:41 - Epoch 18/100 - Train Loss: 0.0049 - Test Loss: 0.9778
+01-Feb-25 03:30:41 - Epoch 19/100 - Train Loss: 0.0055 - Test Loss: 0.9776
+01-Feb-25 03:30:41 - Epoch 20/100 - Train Loss: 0.0034 - Test Loss: 0.9768
+01-Feb-25 03:30:41 - Epoch 21/100 - Train Loss: 0.0024 - Test Loss: 0.9754
+01-Feb-25 03:30:42 - Epoch 22/100 - Train Loss: 0.0023 - Test Loss: 0.9739
+01-Feb-25 03:30:42 - Epoch 23/100 - Train Loss: 0.0022 - Test Loss: 0.9721
+01-Feb-25 03:30:42 - Epoch 24/100 - Train Loss: 0.0016 - Test Loss: 0.9707
+01-Feb-25 03:30:42 - Epoch 25/100 - Train Loss: 0.0016 - Test Loss: 0.9697
+01-Feb-25 03:30:42 - Epoch 26/100 - Train Loss: 0.0014 - Test Loss: 0.9687
+01-Feb-25 03:30:43 - Epoch 27/100 - Train Loss: 0.0013 - Test Loss: 0.9680
+01-Feb-25 03:30:43 - Epoch 28/100 - Train Loss: 0.0011 - Test Loss: 0.9672
+01-Feb-25 03:30:43 - Epoch 29/100 - Train Loss: 0.0010 - Test Loss: 0.9667
+01-Feb-25 03:30:43 - Epoch 30/100 - Train Loss: 0.0007 - Test Loss: 0.9657
+01-Feb-25 03:30:43 - Epoch 31/100 - Train Loss: 0.0009 - Test Loss: 0.9636
+01-Feb-25 03:30:44 - Epoch 32/100 - Train Loss: 0.0011 - Test Loss: 0.9583
+01-Feb-25 03:30:44 - Epoch 33/100 - Train Loss: 0.0011 - Test Loss: 0.9430
+01-Feb-25 03:30:44 - Epoch 34/100 - Train Loss: 0.0007 - Test Loss: 0.8949
+01-Feb-25 03:30:44 - Epoch 35/100 - Train Loss: 0.0006 - Test Loss: 0.8095
+01-Feb-25 03:30:45 - Epoch 36/100 - Train Loss: 0.0006 - Test Loss: 0.6911
+01-Feb-25 03:30:45 - Epoch 37/100 - Train Loss: 0.0007 - Test Loss: 0.6623
+01-Feb-25 03:30:45 - Epoch 38/100 - Train Loss: 0.0006 - Test Loss: 0.6277
+01-Feb-25 03:30:45 - Epoch 39/100 - Train Loss: 0.0007 - Test Loss: 0.5870
+01-Feb-25 03:30:45 - Epoch 40/100 - Train Loss: 0.0006 - Test Loss: 0.6486
+01-Feb-25 03:30:46 - Epoch 41/100 - Train Loss: 0.0008 - Test Loss: 0.6879
+01-Feb-25 03:30:46 - Epoch 42/100 - Train Loss: 0.0019 - Test Loss: 0.6517
+01-Feb-25 03:30:46 - Epoch 43/100 - Train Loss: 0.0015 - Test Loss: 0.6276
+01-Feb-25 03:30:46 - Epoch 44/100 - Train Loss: 0.0015 - Test Loss: 0.5974
+01-Feb-25 03:30:46 - Epoch 45/100 - Train Loss: 0.0015 - Test Loss: 0.5630
+01-Feb-25 03:30:47 - Epoch 46/100 - Train Loss: 0.0014 - Test Loss: 0.5345
+01-Feb-25 03:30:47 - Epoch 47/100 - Train Loss: 0.0013 - Test Loss: 0.5084
+01-Feb-25 03:30:47 - Epoch 48/100 - Train Loss: 0.0011 - Test Loss: 0.4929
+01-Feb-25 03:30:47 - Epoch 49/100 - Train Loss: 0.0010 - Test Loss: 0.4844
+01-Feb-25 03:30:47 - Epoch 50/100 - Train Loss: 0.0009 - Test Loss: 0.4781
+01-Feb-25 03:30:48 - Epoch 51/100 - Train Loss: 0.0008 - Test Loss: 0.4717
+01-Feb-25 03:30:48 - Epoch 52/100 - Train Loss: 0.0010 - Test Loss: 0.4602
+01-Feb-25 03:30:48 - Epoch 53/100 - Train Loss: 0.0008 - Test Loss: 0.4396
+01-Feb-25 03:30:48 - Epoch 54/100 - Train Loss: 0.0006 - Test Loss: 0.4020
+01-Feb-25 03:30:48 - Epoch 55/100 - Train Loss: 0.0005 - Test Loss: 0.3603
+01-Feb-25 03:30:49 - Epoch 56/100 - Train Loss: 0.0004 - Test Loss: 0.3178
+01-Feb-25 03:30:49 - Epoch 57/100 - Train Loss: 0.0004 - Test Loss: 0.2804
+01-Feb-25 03:30:49 - Epoch 58/100 - Train Loss: 0.0004 - Test Loss: 0.2458
+01-Feb-25 03:30:49 - Epoch 59/100 - Train Loss: 0.0004 - Test Loss: 0.2236
+01-Feb-25 03:30:49 - Epoch 60/100 - Train Loss: 0.0005 - Test Loss: 0.3001
+01-Feb-25 03:30:50 - Epoch 61/100 - Train Loss: 0.0004 - Test Loss: 0.3551
+01-Feb-25 03:30:50 - Epoch 62/100 - Train Loss: 0.0003 - Test Loss: 0.3912
+01-Feb-25 03:30:50 - Epoch 63/100 - Train Loss: 0.0003 - Test Loss: 0.4124
+01-Feb-25 03:30:50 - Epoch 64/100 - Train Loss: 0.0003 - Test Loss: 0.4268
+01-Feb-25 03:30:51 - Epoch 65/100 - Train Loss: 0.0003 - Test Loss: 0.4395
+01-Feb-25 03:30:51 - Epoch 66/100 - Train Loss: 0.0003 - Test Loss: 0.4510
+01-Feb-25 03:30:51 - Epoch 67/100 - Train Loss: 0.0003 - Test Loss: 0.4594
+01-Feb-25 03:30:51 - Epoch 68/100 - Train Loss: 0.0003 - Test Loss: 0.4662
+01-Feb-25 03:30:51 - Epoch 69/100 - Train Loss: 0.0003 - Test Loss: 0.4718
+01-Feb-25 03:30:52 - Epoch 70/100 - Train Loss: 0.0003 - Test Loss: 0.4767
+01-Feb-25 03:30:52 - Epoch 71/100 - Train Loss: 0.0003 - Test Loss: 0.4814
+01-Feb-25 03:30:52 - Epoch 72/100 - Train Loss: 0.0003 - Test Loss: 0.4854
+01-Feb-25 03:30:52 - Epoch 73/100 - Train Loss: 0.0003 - Test Loss: 0.4889
+01-Feb-25 03:30:52 - Epoch 74/100 - Train Loss: 0.0003 - Test Loss: 0.4921
+01-Feb-25 03:30:53 - Epoch 75/100 - Train Loss: 0.0003 - Test Loss: 0.4952
+01-Feb-25 03:30:53 - Epoch 76/100 - Train Loss: 0.0003 - Test Loss: 0.4977
+01-Feb-25 03:30:53 - Epoch 77/100 - Train Loss: 0.0003 - Test Loss: 0.5002
+01-Feb-25 03:30:53 - Epoch 78/100 - Train Loss: 0.0003 - Test Loss: 0.4949
+01-Feb-25 03:30:53 - Epoch 79/100 - Train Loss: 0.0002 - Test Loss: 0.4917
+01-Feb-25 03:30:54 - Epoch 80/100 - Train Loss: 0.0003 - Test Loss: 0.4858
+01-Feb-25 03:30:54 - Epoch 81/100 - Train Loss: 0.0002 - Test Loss: 0.4760
+01-Feb-25 03:30:54 - Epoch 82/100 - Train Loss: 0.0002 - Test Loss: 0.4689
+01-Feb-25 03:30:54 - Epoch 83/100 - Train Loss: 0.0001 - Test Loss: 0.4634
+01-Feb-25 03:30:54 - Epoch 84/100 - Train Loss: 0.0001 - Test Loss: 0.4588
+01-Feb-25 03:30:55 - Epoch 85/100 - Train Loss: 0.0001 - Test Loss: 0.4547
+01-Feb-25 03:30:55 - Epoch 86/100 - Train Loss: 0.0001 - Test Loss: 0.4518
+01-Feb-25 03:30:55 - Epoch 87/100 - Train Loss: 0.0001 - Test Loss: 0.4495
+01-Feb-25 03:30:55 - Epoch 88/100 - Train Loss: 0.0001 - Test Loss: 0.4471
+01-Feb-25 03:30:56 - Epoch 89/100 - Train Loss: 0.0001 - Test Loss: 0.4448
+01-Feb-25 03:30:56 - Epoch 90/100 - Train Loss: 0.0001 - Test Loss: 0.4426
+01-Feb-25 03:30:56 - Epoch 91/100 - Train Loss: 0.0001 - Test Loss: 0.5078
+01-Feb-25 03:30:56 - Epoch 92/100 - Train Loss: 0.0001 - Test Loss: 0.5880
+01-Feb-25 03:30:56 - Epoch 93/100 - Train Loss: 0.0001 - Test Loss: 0.6594
+01-Feb-25 03:30:57 - Epoch 94/100 - Train Loss: 0.0001 - Test Loss: 0.7096
+01-Feb-25 03:30:57 - Epoch 95/100 - Train Loss: 0.0001 - Test Loss: 0.7420
+01-Feb-25 03:30:57 - Epoch 96/100 - Train Loss: 0.0001 - Test Loss: 0.7425
+01-Feb-25 03:30:57 - Epoch 97/100 - Train Loss: 0.0001 - Test Loss: 0.7405
+01-Feb-25 03:30:57 - Epoch 98/100 - Train Loss: 0.0001 - Test Loss: 0.7364
+01-Feb-25 03:30:58 - Epoch 99/100 - Train Loss: 0.0001 - Test Loss: 0.7305
+01-Feb-25 03:30:58 - Epoch 100/100 - Train Loss: 0.0001 - Test Loss: 0.7229
+01-Feb-25 03:30:58 - Training complete
+01-Feb-25 03:30:58 - Saving embeddings
+01-Feb-25 03:30:58 - Getting embeddings for class: children_playing
+01-Feb-25 03:31:09 - Getting embeddings for class: air_conditioner
+01-Feb-25 03:31:20 - Getting embeddings for class: jackhammer
+01-Feb-25 03:31:43 - Getting embeddings for class: siren
+01-Feb-25 03:32:07 - Getting embeddings for class: street_music
+01-Feb-25 03:32:33 - Getting embeddings for class: dog_bark
+01-Feb-25 03:32:57 - Getting embeddings for class: drilling
+01-Feb-25 03:33:21 - Getting embeddings for class: car_horn
+01-Feb-25 03:33:31 - Getting embeddings for class: gun_shot
+01-Feb-25 03:33:40 - Getting embeddings for class: engine_idling
+01-Feb-25 03:34:13 - Embeddings saved
+01-Feb-25 03:34:13 - Saving model
+01-Feb-25 03:34:14 - Done
+01-Feb-25 03:34:14 - -----------------------------------
+
+
+01-Feb-25 03:34:14 - Initalizing training for window: hamming
+01-Feb-25 03:34:14 - Using device: cuda
+01-Feb-25 03:34:14 - Getting data loaders
+01-Feb-25 03:34:14 - Data loaders ready
+01-Feb-25 03:34:14 - Starting training
+01-Feb-25 03:34:14 - Epoch 1/100 - Train Loss: 0.8944 - Test Loss: 0.6926
+01-Feb-25 03:34:15 - Epoch 2/100 - Train Loss: 0.5797 - Test Loss: 0.2841
+01-Feb-25 03:34:15 - Epoch 3/100 - Train Loss: 0.4787 - Test Loss: 0.9889
+01-Feb-25 03:34:16 - Epoch 4/100 - Train Loss: 0.3291 - Test Loss: 0.9912
+01-Feb-25 03:34:17 - Epoch 5/100 - Train Loss: 0.3056 - Test Loss: 0.9920
+01-Feb-25 03:34:17 - Epoch 6/100 - Train Loss: 0.2657 - Test Loss: 0.9915
+01-Feb-25 03:34:18 - Epoch 7/100 - Train Loss: 0.2320 - Test Loss: 0.9922
+01-Feb-25 03:34:18 - Epoch 8/100 - Train Loss: 0.1343 - Test Loss: 0.9938
+01-Feb-25 03:34:19 - Epoch 9/100 - Train Loss: 0.0934 - Test Loss: 0.9928
+01-Feb-25 03:34:19 - Epoch 10/100 - Train Loss: 0.1140 - Test Loss: 0.9929
+01-Feb-25 03:34:20 - Epoch 11/100 - Train Loss: 0.0701 - Test Loss: 0.9918
+01-Feb-25 03:34:20 - Epoch 12/100 - Train Loss: 0.0527 - Test Loss: 0.9883
+01-Feb-25 03:34:21 - Epoch 13/100 - Train Loss: 0.0523 - Test Loss: 0.9772
+01-Feb-25 03:34:22 - Epoch 14/100 - Train Loss: 0.0532 - Test Loss: 0.9700
+01-Feb-25 03:34:22 - Epoch 15/100 - Train Loss: 0.0846 - Test Loss: 0.9713
+01-Feb-25 03:34:23 - Epoch 16/100 - Train Loss: 0.0871 - Test Loss: 0.9678
+01-Feb-25 03:34:23 - Epoch 17/100 - Train Loss: 0.0726 - Test Loss: 0.9435
+01-Feb-25 03:34:24 - Epoch 18/100 - Train Loss: 0.0658 - Test Loss: 0.9302
+01-Feb-25 03:34:24 - Epoch 19/100 - Train Loss: 0.0578 - Test Loss: 0.9297
+01-Feb-25 03:34:25 - Epoch 20/100 - Train Loss: 0.0336 - Test Loss: 0.9453
+01-Feb-25 03:34:25 - Epoch 21/100 - Train Loss: 0.0324 - Test Loss: 0.8957
+01-Feb-25 03:34:26 - Epoch 22/100 - Train Loss: 0.0193 - Test Loss: 0.8313
+01-Feb-25 03:34:26 - Epoch 23/100 - Train Loss: 0.0187 - Test Loss: 0.7223
+01-Feb-25 03:34:27 - Epoch 24/100 - Train Loss: 0.0167 - Test Loss: 0.6039
+01-Feb-25 03:34:27 - Epoch 25/100 - Train Loss: 0.0137 - Test Loss: 0.5965
+01-Feb-25 03:34:28 - Epoch 26/100 - Train Loss: 0.0100 - Test Loss: 0.6925
+01-Feb-25 03:34:29 - Epoch 27/100 - Train Loss: 0.0084 - Test Loss: 0.7775
+01-Feb-25 03:34:29 - Epoch 28/100 - Train Loss: 0.0081 - Test Loss: 0.8192
+01-Feb-25 03:34:30 - Epoch 29/100 - Train Loss: 0.0047 - Test Loss: 0.8372
+01-Feb-25 03:34:30 - Epoch 30/100 - Train Loss: 0.0045 - Test Loss: 0.8384
+01-Feb-25 03:34:31 - Epoch 31/100 - Train Loss: 0.0032 - Test Loss: 0.8248
+01-Feb-25 03:34:31 - Epoch 32/100 - Train Loss: 0.0027 - Test Loss: 0.7248
+01-Feb-25 03:34:32 - Epoch 33/100 - Train Loss: 0.0016 - Test Loss: 0.6419
+01-Feb-25 03:34:32 - Epoch 34/100 - Train Loss: 0.0013 - Test Loss: 0.5761
+01-Feb-25 03:34:33 - Epoch 35/100 - Train Loss: 0.0012 - Test Loss: 0.5421
+01-Feb-25 03:34:33 - Epoch 36/100 - Train Loss: 0.0015 - Test Loss: 0.5534
+01-Feb-25 03:34:34 - Epoch 37/100 - Train Loss: 0.0015 - Test Loss: 0.5933
+01-Feb-25 03:34:34 - Epoch 38/100 - Train Loss: 0.0017 - Test Loss: 0.6414
+01-Feb-25 03:34:35 - Epoch 39/100 - Train Loss: 0.0016 - Test Loss: 0.6961
+01-Feb-25 03:34:36 - Epoch 40/100 - Train Loss: 0.0014 - Test Loss: 0.7393
+01-Feb-25 03:34:36 - Epoch 41/100 - Train Loss: 0.0013 - Test Loss: 0.7280
+01-Feb-25 03:34:37 - Epoch 42/100 - Train Loss: 0.0012 - Test Loss: 0.6905
+01-Feb-25 03:34:37 - Epoch 43/100 - Train Loss: 0.0015 - Test Loss: 0.6717
+01-Feb-25 03:34:38 - Epoch 44/100 - Train Loss: 0.0016 - Test Loss: 0.6524
+01-Feb-25 03:34:38 - Epoch 45/100 - Train Loss: 0.0013 - Test Loss: 0.6417
+01-Feb-25 03:34:39 - Epoch 46/100 - Train Loss: 0.0011 - Test Loss: 0.6451
+01-Feb-25 03:34:39 - Epoch 47/100 - Train Loss: 0.0010 - Test Loss: 0.6693
+01-Feb-25 03:34:40 - Epoch 48/100 - Train Loss: 0.0009 - Test Loss: 0.6899
+01-Feb-25 03:34:40 - Epoch 49/100 - Train Loss: 0.0008 - Test Loss: 0.7105
+01-Feb-25 03:34:41 - Epoch 50/100 - Train Loss: 0.0007 - Test Loss: 0.7107
+01-Feb-25 03:34:42 - Epoch 51/100 - Train Loss: 0.0007 - Test Loss: 0.6904
+01-Feb-25 03:34:42 - Epoch 52/100 - Train Loss: 0.0005 - Test Loss: 0.6584
+01-Feb-25 03:34:43 - Epoch 53/100 - Train Loss: 0.0004 - Test Loss: 0.6389
+01-Feb-25 03:34:43 - Epoch 54/100 - Train Loss: 0.0002 - Test Loss: 0.6159
+01-Feb-25 03:34:44 - Epoch 55/100 - Train Loss: 0.0002 - Test Loss: 0.6094
+01-Feb-25 03:34:44 - Epoch 56/100 - Train Loss: 0.0001 - Test Loss: 0.5993
+01-Feb-25 03:34:45 - Epoch 57/100 - Train Loss: 0.0001 - Test Loss: 0.5887
+01-Feb-25 03:34:45 - Epoch 58/100 - Train Loss: 0.0000 - Test Loss: 0.5672
+01-Feb-25 03:34:46 - Epoch 59/100 - Train Loss: 0.0000 - Test Loss: 0.5535
+01-Feb-25 03:34:46 - Epoch 60/100 - Train Loss: 0.0001 - Test Loss: 0.5407
+01-Feb-25 03:34:47 - Epoch 61/100 - Train Loss: 0.0000 - Test Loss: 0.5355
+01-Feb-25 03:34:47 - Epoch 62/100 - Train Loss: 0.0000 - Test Loss: 0.5364
+01-Feb-25 03:34:48 - Epoch 63/100 - Train Loss: 0.0000 - Test Loss: 0.5355
+01-Feb-25 03:34:49 - Epoch 64/100 - Train Loss: 0.0001 - Test Loss: 0.5370
+01-Feb-25 03:34:49 - Epoch 65/100 - Train Loss: 0.0002 - Test Loss: 0.5380
+01-Feb-25 03:34:50 - Epoch 66/100 - Train Loss: 0.0003 - Test Loss: 0.5326
+01-Feb-25 03:34:50 - Epoch 67/100 - Train Loss: 0.0002 - Test Loss: 0.5590
+01-Feb-25 03:34:51 - Epoch 68/100 - Train Loss: 0.0004 - Test Loss: 0.5984
+01-Feb-25 03:34:51 - Epoch 69/100 - Train Loss: 0.0005 - Test Loss: 0.6104
+01-Feb-25 03:34:52 - Epoch 70/100 - Train Loss: 0.0002 - Test Loss: 0.5772
+01-Feb-25 03:34:52 - Epoch 71/100 - Train Loss: 0.0003 - Test Loss: 0.5325
+01-Feb-25 03:34:53 - Epoch 72/100 - Train Loss: 0.0007 - Test Loss: 0.5186
+01-Feb-25 03:34:54 - Epoch 73/100 - Train Loss: 0.0012 - Test Loss: 0.6852
+01-Feb-25 03:34:54 - Epoch 74/100 - Train Loss: 0.0004 - Test Loss: 0.7608
+01-Feb-25 03:34:55 - Epoch 75/100 - Train Loss: 0.0007 - Test Loss: 0.7880
+01-Feb-25 03:34:55 - Epoch 76/100 - Train Loss: 0.0020 - Test Loss: 0.7844
+01-Feb-25 03:34:56 - Epoch 77/100 - Train Loss: 0.0011 - Test Loss: 0.7451
+01-Feb-25 03:34:56 - Epoch 78/100 - Train Loss: 0.0008 - Test Loss: 0.7012
+01-Feb-25 03:34:57 - Epoch 79/100 - Train Loss: 0.0007 - Test Loss: 0.6759
+01-Feb-25 03:34:57 - Epoch 80/100 - Train Loss: 0.0007 - Test Loss: 0.6877
+01-Feb-25 03:34:58 - Epoch 81/100 - Train Loss: 0.0006 - Test Loss: 0.7088
+01-Feb-25 03:34:58 - Epoch 82/100 - Train Loss: 0.0004 - Test Loss: 0.6990
+01-Feb-25 03:34:59 - Epoch 83/100 - Train Loss: 0.0005 - Test Loss: 0.6741
+01-Feb-25 03:34:59 - Epoch 84/100 - Train Loss: 0.0005 - Test Loss: 0.6091
+01-Feb-25 03:35:00 - Epoch 85/100 - Train Loss: 0.0004 - Test Loss: 0.5616
+01-Feb-25 03:35:01 - Epoch 86/100 - Train Loss: 0.0005 - Test Loss: 0.5336
+01-Feb-25 03:35:01 - Epoch 87/100 - Train Loss: 0.0005 - Test Loss: 0.5257
+01-Feb-25 03:35:02 - Epoch 88/100 - Train Loss: 0.0005 - Test Loss: 0.5293
+01-Feb-25 03:35:02 - Epoch 89/100 - Train Loss: 0.0005 - Test Loss: 0.5394
+01-Feb-25 03:35:03 - Epoch 90/100 - Train Loss: 0.0003 - Test Loss: 0.5482
+01-Feb-25 03:35:03 - Epoch 91/100 - Train Loss: 0.0003 - Test Loss: 0.5551
+01-Feb-25 03:35:04 - Epoch 92/100 - Train Loss: 0.0002 - Test Loss: 0.5600
+01-Feb-25 03:35:04 - Epoch 93/100 - Train Loss: 0.0002 - Test Loss: 0.5641
+01-Feb-25 03:35:05 - Epoch 94/100 - Train Loss: 0.0003 - Test Loss: 0.5682
+01-Feb-25 03:35:06 - Epoch 95/100 - Train Loss: 0.0003 - Test Loss: 0.5765
+01-Feb-25 03:35:06 - Epoch 96/100 - Train Loss: 0.0003 - Test Loss: 0.5997
+01-Feb-25 03:35:07 - Epoch 97/100 - Train Loss: 0.0003 - Test Loss: 0.6162
+01-Feb-25 03:35:07 - Epoch 98/100 - Train Loss: 0.0002 - Test Loss: 0.6352
+01-Feb-25 03:35:08 - Epoch 99/100 - Train Loss: 0.0002 - Test Loss: 0.6485
+01-Feb-25 03:35:08 - Epoch 100/100 - Train Loss: 0.0004 - Test Loss: 0.6549
+01-Feb-25 03:35:08 - Training complete
+01-Feb-25 03:35:08 - Saving embeddings
+01-Feb-25 03:35:08 - Getting embeddings for class: children_playing
+01-Feb-25 03:35:32 - Getting embeddings for class: air_conditioner
+01-Feb-25 03:35:56 - Getting embeddings for class: jackhammer
+01-Feb-25 03:36:21 - Getting embeddings for class: siren
+01-Feb-25 03:36:43 - Getting embeddings for class: street_music
+01-Feb-25 03:37:08 - Getting embeddings for class: dog_bark
+01-Feb-25 03:37:33 - Getting embeddings for class: drilling
+01-Feb-25 03:37:57 - Getting embeddings for class: car_horn
+01-Feb-25 03:38:07 - Getting embeddings for class: gun_shot
+01-Feb-25 03:38:16 - Getting embeddings for class: engine_idling
+01-Feb-25 03:38:51 - Embeddings saved
+01-Feb-25 03:38:51 - Saving model
+01-Feb-25 03:38:52 - Done
+01-Feb-25 03:38:52 - -----------------------------------
+
+
+01-Feb-25 03:38:52 - Initalizing training for window: rectangular
+01-Feb-25 03:38:52 - Using device: cuda
+01-Feb-25 03:38:52 - Getting data loaders
+01-Feb-25 03:38:52 - Data loaders ready
+01-Feb-25 03:38:52 - Starting training
+01-Feb-25 03:38:53 - Epoch 1/100 - Train Loss: 0.8895 - Test Loss: 0.9410
+01-Feb-25 03:38:53 - Epoch 2/100 - Train Loss: 0.6528 - Test Loss: 0.9872
+01-Feb-25 03:38:54 - Epoch 3/100 - Train Loss: 0.3821 - Test Loss: 0.9930
+01-Feb-25 03:38:54 - Epoch 4/100 - Train Loss: 0.3401 - Test Loss: 0.9282
+01-Feb-25 03:38:55 - Epoch 5/100 - Train Loss: 0.3408 - Test Loss: 0.8801
+01-Feb-25 03:38:55 - Epoch 6/100 - Train Loss: 0.1559 - Test Loss: 0.8601
+01-Feb-25 03:38:56 - Epoch 7/100 - Train Loss: 0.1222 - Test Loss: 0.7730
+01-Feb-25 03:38:56 - Epoch 8/100 - Train Loss: 0.0789 - Test Loss: 0.7541
+01-Feb-25 03:38:57 - Epoch 9/100 - Train Loss: 0.0461 - Test Loss: 0.8786
+01-Feb-25 03:38:57 - Epoch 10/100 - Train Loss: 0.0302 - Test Loss: 0.9177
+01-Feb-25 03:38:58 - Epoch 11/100 - Train Loss: 0.0206 - Test Loss: 0.9356
+01-Feb-25 03:38:58 - Epoch 12/100 - Train Loss: 0.0146 - Test Loss: 0.9511
+01-Feb-25 03:38:59 - Epoch 13/100 - Train Loss: 0.0125 - Test Loss: 0.9575
+01-Feb-25 03:38:59 - Epoch 14/100 - Train Loss: 0.0099 - Test Loss: 0.9644
+01-Feb-25 03:39:00 - Epoch 15/100 - Train Loss: 0.0093 - Test Loss: 0.9672
+01-Feb-25 03:39:00 - Epoch 16/100 - Train Loss: 0.0079 - Test Loss: 0.9683
+01-Feb-25 03:39:01 - Epoch 17/100 - Train Loss: 0.0064 - Test Loss: 0.9694
+01-Feb-25 03:39:02 - Epoch 18/100 - Train Loss: 0.0055 - Test Loss: 0.9703
+01-Feb-25 03:39:02 - Epoch 19/100 - Train Loss: 0.0039 - Test Loss: 0.9730
+01-Feb-25 03:39:03 - Epoch 20/100 - Train Loss: 0.0042 - Test Loss: 0.9764
+01-Feb-25 03:39:03 - Epoch 21/100 - Train Loss: 0.0037 - Test Loss: 0.9792
+01-Feb-25 03:39:04 - Epoch 22/100 - Train Loss: 0.0038 - Test Loss: 0.9809
+01-Feb-25 03:39:04 - Epoch 23/100 - Train Loss: 0.0036 - Test Loss: 0.9824
+01-Feb-25 03:39:05 - Epoch 24/100 - Train Loss: 0.0034 - Test Loss: 0.9849
+01-Feb-25 03:39:05 - Epoch 25/100 - Train Loss: 0.0032 - Test Loss: 0.9870
+01-Feb-25 03:39:06 - Epoch 26/100 - Train Loss: 0.0027 - Test Loss: 0.9890
+01-Feb-25 03:39:06 - Epoch 27/100 - Train Loss: 0.0025 - Test Loss: 0.9902
+01-Feb-25 03:39:07 - Epoch 28/100 - Train Loss: 0.0024 - Test Loss: 0.9901
+01-Feb-25 03:39:07 - Epoch 29/100 - Train Loss: 0.0024 - Test Loss: 0.9869
+01-Feb-25 03:39:08 - Epoch 30/100 - Train Loss: 0.0020 - Test Loss: 0.9785
+01-Feb-25 03:39:08 - Epoch 31/100 - Train Loss: 0.0019 - Test Loss: 0.9631
+01-Feb-25 03:39:09 - Epoch 32/100 - Train Loss: 0.0019 - Test Loss: 0.9330
+01-Feb-25 03:39:09 - Epoch 33/100 - Train Loss: 0.0020 - Test Loss: 0.8655
+01-Feb-25 03:39:10 - Epoch 34/100 - Train Loss: 0.0020 - Test Loss: 0.8022
+01-Feb-25 03:39:10 - Epoch 35/100 - Train Loss: 0.0018 - Test Loss: 0.7379
+01-Feb-25 03:39:11 - Epoch 36/100 - Train Loss: 0.0018 - Test Loss: 0.6875
+01-Feb-25 03:39:11 - Epoch 37/100 - Train Loss: 0.0016 - Test Loss: 0.6518
+01-Feb-25 03:39:12 - Epoch 38/100 - Train Loss: 0.0012 - Test Loss: 0.6035
+01-Feb-25 03:39:13 - Epoch 39/100 - Train Loss: 0.0011 - Test Loss: 0.5158
+01-Feb-25 03:39:13 - Epoch 40/100 - Train Loss: 0.0009 - Test Loss: 0.3879
+01-Feb-25 03:39:14 - Epoch 41/100 - Train Loss: 0.0010 - Test Loss: 0.2057
+01-Feb-25 03:39:14 - Epoch 42/100 - Train Loss: 0.0009 - Test Loss: 0.1689
+01-Feb-25 03:39:15 - Epoch 43/100 - Train Loss: 0.0007 - Test Loss: 0.1500
+01-Feb-25 03:39:15 - Epoch 44/100 - Train Loss: 0.0006 - Test Loss: 0.1400
+01-Feb-25 03:39:16 - Epoch 45/100 - Train Loss: 0.0006 - Test Loss: 0.1362
+01-Feb-25 03:39:16 - Epoch 46/100 - Train Loss: 0.0005 - Test Loss: 0.1361
+01-Feb-25 03:39:17 - Epoch 47/100 - Train Loss: 0.0007 - Test Loss: 0.1376
+01-Feb-25 03:39:17 - Epoch 48/100 - Train Loss: 0.0005 - Test Loss: 0.1374
+01-Feb-25 03:39:18 - Epoch 49/100 - Train Loss: 0.0005 - Test Loss: 0.1622
+01-Feb-25 03:39:19 - Epoch 50/100 - Train Loss: 0.0003 - Test Loss: 0.1843
+01-Feb-25 03:39:19 - Epoch 51/100 - Train Loss: 0.0000 - Test Loss: 0.2256
+01-Feb-25 03:39:20 - Epoch 52/100 - Train Loss: 0.0002 - Test Loss: 0.2666
+01-Feb-25 03:39:20 - Epoch 53/100 - Train Loss: 0.0002 - Test Loss: 0.2946
+01-Feb-25 03:39:21 - Epoch 54/100 - Train Loss: 0.0003 - Test Loss: 0.2326
+01-Feb-25 03:39:21 - Epoch 55/100 - Train Loss: 0.0001 - Test Loss: 0.2022
+01-Feb-25 03:39:22 - Epoch 56/100 - Train Loss: 0.0050 - Test Loss: 0.1676
+01-Feb-25 03:39:23 - Epoch 57/100 - Train Loss: 0.0032 - Test Loss: 0.1724
+01-Feb-25 03:39:23 - Epoch 58/100 - Train Loss: 0.0008 - Test Loss: 0.1853
+01-Feb-25 03:39:24 - Epoch 59/100 - Train Loss: 0.0006 - Test Loss: 0.1949
+01-Feb-25 03:39:24 - Epoch 60/100 - Train Loss: 0.0005 - Test Loss: 0.2011
+01-Feb-25 03:39:25 - Epoch 61/100 - Train Loss: 0.0003 - Test Loss: 0.2060
+01-Feb-25 03:39:25 - Epoch 62/100 - Train Loss: 0.0001 - Test Loss: 0.2139
+01-Feb-25 03:39:26 - Epoch 63/100 - Train Loss: 0.0001 - Test Loss: 0.2224
+01-Feb-25 03:39:27 - Epoch 64/100 - Train Loss: 0.0002 - Test Loss: 0.2299
+01-Feb-25 03:39:27 - Epoch 65/100 - Train Loss: 0.0002 - Test Loss: 0.2333
+01-Feb-25 03:39:28 - Epoch 66/100 - Train Loss: 0.0002 - Test Loss: 0.2331
+01-Feb-25 03:39:28 - Epoch 67/100 - Train Loss: 0.0002 - Test Loss: 0.2349
+01-Feb-25 03:39:29 - Epoch 68/100 - Train Loss: 0.0001 - Test Loss: 0.2270
+01-Feb-25 03:39:29 - Epoch 69/100 - Train Loss: 0.0002 - Test Loss: 0.2240
+01-Feb-25 03:39:30 - Epoch 70/100 - Train Loss: 0.0002 - Test Loss: 0.2315
+01-Feb-25 03:39:30 - Epoch 71/100 - Train Loss: 0.0001 - Test Loss: 0.2426
+01-Feb-25 03:39:31 - Epoch 72/100 - Train Loss: 0.0001 - Test Loss: 0.2319
+01-Feb-25 03:39:31 - Epoch 73/100 - Train Loss: 0.0001 - Test Loss: 0.2221
+01-Feb-25 03:39:32 - Epoch 74/100 - Train Loss: 0.0000 - Test Loss: 0.2289
+01-Feb-25 03:39:32 - Epoch 75/100 - Train Loss: 0.0001 - Test Loss: 0.2323
+01-Feb-25 03:39:33 - Epoch 76/100 - Train Loss: 0.0003 - Test Loss: 0.2308
+01-Feb-25 03:39:33 - Epoch 77/100 - Train Loss: 0.0002 - Test Loss: 0.2286
+01-Feb-25 03:39:34 - Epoch 78/100 - Train Loss: 0.0001 - Test Loss: 0.2264
+01-Feb-25 03:39:35 - Epoch 79/100 - Train Loss: 0.0000 - Test Loss: 0.2245
+01-Feb-25 03:39:35 - Epoch 80/100 - Train Loss: 0.0001 - Test Loss: 0.2205
+01-Feb-25 03:39:36 - Epoch 81/100 - Train Loss: 0.0001 - Test Loss: 0.2155
+01-Feb-25 03:39:36 - Epoch 82/100 - Train Loss: 0.0001 - Test Loss: 0.2097
+01-Feb-25 03:39:37 - Epoch 83/100 - Train Loss: 0.0001 - Test Loss: 0.2025
+01-Feb-25 03:39:37 - Epoch 84/100 - Train Loss: 0.0001 - Test Loss: 0.1934
+01-Feb-25 03:39:38 - Epoch 85/100 - Train Loss: 0.0000 - Test Loss: 0.1996
+01-Feb-25 03:39:38 - Epoch 86/100 - Train Loss: 0.0000 - Test Loss: 0.2053
+01-Feb-25 03:39:39 - Epoch 87/100 - Train Loss: 0.0000 - Test Loss: 0.2178
+01-Feb-25 03:39:39 - Epoch 88/100 - Train Loss: 0.0000 - Test Loss: 0.2259
+01-Feb-25 03:39:40 - Epoch 89/100 - Train Loss: 0.0000 - Test Loss: 0.2318
+01-Feb-25 03:39:41 - Epoch 90/100 - Train Loss: 0.0000 - Test Loss: 0.2367
+01-Feb-25 03:39:41 - Epoch 91/100 - Train Loss: 0.0000 - Test Loss: 0.2405
+01-Feb-25 03:39:42 - Epoch 92/100 - Train Loss: 0.0000 - Test Loss: 0.2433
+01-Feb-25 03:39:42 - Epoch 93/100 - Train Loss: 0.0001 - Test Loss: 0.2468
+01-Feb-25 03:39:43 - Epoch 94/100 - Train Loss: 0.0001 - Test Loss: 0.2475
+01-Feb-25 03:39:43 - Epoch 95/100 - Train Loss: 0.0001 - Test Loss: 0.2430
+01-Feb-25 03:39:44 - Epoch 96/100 - Train Loss: 0.0001 - Test Loss: 0.2300
+01-Feb-25 03:39:45 - Epoch 97/100 - Train Loss: 0.0000 - Test Loss: 0.2197
+01-Feb-25 03:39:45 - Epoch 98/100 - Train Loss: 0.0000 - Test Loss: 0.2126
+01-Feb-25 03:39:46 - Epoch 99/100 - Train Loss: 0.0000 - Test Loss: 0.2073
+01-Feb-25 03:39:46 - Epoch 100/100 - Train Loss: 0.0000 - Test Loss: 0.2036
+01-Feb-25 03:39:46 - Training complete
+01-Feb-25 03:39:46 - Saving embeddings
+01-Feb-25 03:39:46 - Getting embeddings for class: children_playing
+01-Feb-25 03:40:12 - Getting embeddings for class: air_conditioner
+01-Feb-25 03:40:36 - Getting embeddings for class: jackhammer
+01-Feb-25 03:41:00 - Getting embeddings for class: siren
+01-Feb-25 03:41:23 - Getting embeddings for class: street_music
+01-Feb-25 03:41:47 - Getting embeddings for class: dog_bark
+01-Feb-25 03:42:11 - Getting embeddings for class: drilling
+01-Feb-25 03:42:36 - Getting embeddings for class: car_horn
+01-Feb-25 03:42:46 - Getting embeddings for class: gun_shot
+01-Feb-25 03:42:55 - Getting embeddings for class: engine_idling
+01-Feb-25 03:43:26 - Embeddings saved
+01-Feb-25 03:43:26 - Saving model
+01-Feb-25 03:43:26 - Done
+01-Feb-25 03:43:26 - -----------------------------------
+
+

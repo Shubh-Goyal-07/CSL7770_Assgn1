@@ -1,0 +1,9 @@
+01-Feb-25 03:52:47 - Training rf model on embeddings for window: rectangular
+01-Feb-25 03:52:47 - Loading data
+01-Feb-25 03:52:48 - Data loaded
+01-Feb-25 03:52:48 - Training model
+01-Feb-25 03:53:13 - Model trained
+01-Feb-25 03:53:13 - Training accuracy: 99.89978525411595, Test accuracy: 64.51058958214081
+01-Feb-25 03:53:13 - Saving model
+01-Feb-25 03:53:13 - Model saved successfully
+

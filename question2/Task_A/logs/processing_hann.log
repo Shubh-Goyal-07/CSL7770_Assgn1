@@ -1,0 +1,7 @@
+01-Feb-25 02:12:08 - Generating spectrograms with window type: hann, window size: 1024, overlap: 512
+01-Feb-25 02:49:29 - Percentage error in windowing: 1.918139714480696 %
+01-Feb-25 02:49:29 - Finished generating spectrograms
+01-Feb-25 02:49:29 - Spectrograms saved in train_data/spectrograms/hann
+01-Feb-25 02:49:29 - -----------------------------------
+
+
